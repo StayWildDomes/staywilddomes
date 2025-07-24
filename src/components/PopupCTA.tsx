@@ -52,7 +52,7 @@ const PopupCTA = () => {
             Ready to Turn Your Land Into Income?
           </h3>
           <p className="text-muted-foreground mb-6 leading-relaxed">
-            Join 50+ Canadian landowners already earning $2,000-8,000 monthly with StayWild Domes. 
+            Join many Canadian landowners already earning $500-2000 monthly with StayWild Domes. 
             Book a free 15-minute consultation to get started.
           </p>
 
