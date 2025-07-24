@@ -110,7 +110,11 @@ const Contact = () => {
             <p className="text-primary-foreground/90 mb-6">
               Don't let your beautiful land sit idle. Start generating passive income today.
             </p>
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4">
+            <Button 
+              size="lg" 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4"
+              onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}
+            >
               Get Started Now
             </Button>
           </div>

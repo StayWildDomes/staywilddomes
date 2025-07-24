@@ -81,7 +81,10 @@ const FAQ = () => {
           <p className="text-muted-foreground mb-4">
             Still have questions?
           </p>
-          <button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-3 rounded-lg transition-colors">
+          <button 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-3 rounded-lg transition-colors"
+            onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}
+          >
             Schedule a Call
           </button>
         </div>

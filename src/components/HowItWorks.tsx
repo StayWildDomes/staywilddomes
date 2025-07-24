@@ -74,7 +74,10 @@ const HowItWorks = () => {
             <p className="text-primary-foreground/90 mb-6">
               Join Canadian landowners already earning thousands monthly with StayWild Domes
             </p>
-            <button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-3 rounded-lg transition-colors">
+            <button 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-3 rounded-lg transition-colors"
+              onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}
+            >
               Start Your Partnership
             </button>
           </div>

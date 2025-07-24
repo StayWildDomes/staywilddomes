@@ -27,7 +27,10 @@ const Navigation = () => {
             {menuItems.map(item => <a key={item.name} href={item.href} className="text-foreground hover:text-primary transition-colors duration-200">
                 {item.name}
               </a>)}
-            <Button className="bg-primary hover:bg-primary/90">
+            <Button 
+              className="bg-primary hover:bg-primary/90"
+              onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}
+            >
               Book a Call
             </Button>
           </div>
@@ -44,7 +47,10 @@ const Navigation = () => {
               {menuItems.map(item => <a key={item.name} href={item.href} className="text-foreground hover:text-primary transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
                   {item.name}
                 </a>)}
-              <Button className="bg-primary hover:bg-primary/90 w-full mt-4">
+              <Button 
+                className="bg-primary hover:bg-primary/90 w-full mt-4"
+                onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}
+              >
                 Book a Call
               </Button>
             </div>
