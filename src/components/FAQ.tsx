@@ -14,7 +14,7 @@ const FAQ = () => {
     },
     {
       question: "What's the revenue potential?",
-      answer: "Revenue varies by location, seasonality, and local demand, but our partners typically see $150-400 per night in bookings. With average occupancy rates of 60-80%, many landowners earn $2,000-8,000 monthly. You receive 20% of all revenue generated."
+      answer: "Revenue varies by location, seasonality, and local demand, but our partners typically see $150-400 per night in bookings. With average occupancy rates of 50-80%, many landowners earn $1000-2000 monthly. You receive 20% of all revenue generated."
     },
     {
       question: "Do I need permits?",
