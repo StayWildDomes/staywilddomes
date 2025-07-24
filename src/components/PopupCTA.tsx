@@ -8,13 +8,13 @@ const PopupCTA = () => {
   const [hasShown, setHasShown] = useState(false);
 
   useEffect(() => {
-    // Show popup after 30 seconds if it hasn't been shown yet
+    // Show popup after 25 seconds if it hasn't been shown yet
     const timer = setTimeout(() => {
       if (!hasShown) {
         setIsVisible(true);
         setHasShown(true);
       }
-    }, 30000); // 30 seconds
+    }, 25000); // 25 seconds
 
     return () => clearTimeout(timer);
   }, [hasShown]);
