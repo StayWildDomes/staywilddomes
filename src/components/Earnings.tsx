@@ -6,12 +6,14 @@ import { DollarSign, TrendingUp, Calendar } from "lucide-react";
 import { useState } from "react";
 
 const Earnings = () => {
-  const [nightlyRate, setNightlyRate] = useState(325);
-  const [occupancyRate, setOccupancyRate] = useState(60);
+  const [nightlyRate, setNightlyRate] = useState("325");
+  const [occupancyRate, setOccupancyRate] = useState("60");
   const [yourCutPercentage, setYourCutPercentage] = useState(20);
 
   // Calculate derived values
-  const grossRevenue = Math.round((nightlyRate * 30 * occupancyRate) / 100);
+  const nightlyRateNum = parseFloat(nightlyRate) || 0;
+  const occupancyRateNum = parseFloat(occupancyRate) || 0;
+  const grossRevenue = Math.round((nightlyRateNum * 30 * occupancyRateNum) / 100);
   const yourCut = Math.round((grossRevenue * yourCutPercentage) / 100);
   const annualIncome = yourCut * 12;
 
@@ -41,33 +43,44 @@ const Earnings = () => {
                     <div className="py-3 border-b border-border">
                       <div className="flex justify-between items-center mb-2">
                         <Label htmlFor="nightly-rate" className="text-muted-foreground">Nightly Rate:</Label>
-                        <span className="font-semibold text-foreground">${nightlyRate}</span>
+                        <span className="font-semibold text-foreground">${nightlyRateNum}</span>
                       </div>
                       <Input
                         id="nightly-rate"
-                        type="number"
+                        type="text"
+                        inputMode="numeric"
                         value={nightlyRate}
-                        onChange={(e) => setNightlyRate(Number(e.target.value))}
+                        onChange={(e) => {
+                          const value = e.target.value;
+                          // Allow empty string, numbers, and decimal points
+                          if (value === '' || /^\d*\.?\d*$/.test(value)) {
+                            setNightlyRate(value);
+                          }
+                        }}
                         className="mt-1"
-                        min="0"
-                        step="25"
+                        placeholder="Enter nightly rate"
                       />
                     </div>
                     
                     <div className="py-3 border-b border-border">
                       <div className="flex justify-between items-center mb-2">
                         <Label htmlFor="occupancy-rate" className="text-muted-foreground">Occupancy Rate:</Label>
-                        <span className="font-semibold text-foreground">~{occupancyRate}%</span>
+                        <span className="font-semibold text-foreground">~{occupancyRateNum}%</span>
                       </div>
                       <Input
                         id="occupancy-rate"
-                        type="number"
+                        type="text"
+                        inputMode="numeric"
                         value={occupancyRate}
-                        onChange={(e) => setOccupancyRate(Number(e.target.value))}
+                        onChange={(e) => {
+                          const value = e.target.value;
+                          // Allow empty string and numbers up to 100
+                          if (value === '' || (/^\d*\.?\d*$/.test(value) && parseFloat(value) <= 100)) {
+                            setOccupancyRate(value);
+                          }
+                        }}
                         className="mt-1"
-                        min="0"
-                        max="100"
-                        step="5"
+                        placeholder="Enter occupancy rate"
                       />
                     </div>
                     
