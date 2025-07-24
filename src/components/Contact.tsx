@@ -33,9 +33,6 @@ const Contact = () => {
               {/* Calendly Embed Placeholder - Replace with actual Calendly URL */}
               <div className="bg-muted/50 rounded-lg p-8 text-center">
                 <Calendar className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
-                <p className="text-muted-foreground mb-4">
-                  Calendly booking widget would be embedded here
-                </p>
                 <Button className="bg-primary hover:bg-primary/90" onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}>
                   Schedule Free Consultation
                 </Button>
