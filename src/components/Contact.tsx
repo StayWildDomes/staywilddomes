@@ -102,7 +102,7 @@ const Contact = () => {
         <div className="text-center mt-16">
           <div className="bg-accent/20 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-primary-foreground mb-4">
-              Join 50+ Landowners Already Earning
+              Join The Many Landowners Already Earning
             </h3>
             <p className="text-primary-foreground/90 mb-6">
               Don't let your beautiful land sit idle. Start generating passive income today.
