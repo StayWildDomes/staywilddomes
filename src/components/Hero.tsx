@@ -39,8 +39,6 @@ const Hero = () => {
             </Button>
             
             <Button variant="outline" size="lg" className="border-primary-foreground text-primary-foreground px-8 py-4 text-lg bg-slate-800 hover:bg-slate-700" onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}>
-              Learn More
-            </Button>
           </div>
         </div>
       </div>
