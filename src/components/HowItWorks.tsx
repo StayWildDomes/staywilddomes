@@ -1,39 +1,30 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Hammer, DollarSign } from "lucide-react";
-
 const HowItWorks = () => {
-  const steps = [
-    {
-      icon: MapPin,
-      title: "Site Visit & Feasibility Check",
-      description: "Our team conducts a comprehensive assessment of your property to ensure it's perfect for eco-luxury glamping. We handle all site planning and zoning verification.",
-      details: ["Site visit and evaluation", "Permits and zoning research", "Simple land-use agreement"]
-    },
-    {
-      icon: Hammer,
-      title: "We Build the Dome (2–3 weeks)",
-      description: "We construct your eco-luxury dome with deck, bathroom, and furnishings. Off-grid or utility connections included based on your property setup.",
-      details: ["Dome construction and installation", "Photography and Airbnb listing", "Guest management setup"]
-    },
-    {
-      icon: DollarSign,
-      title: "You Start Earning Monthly Income",
-      description: "Earn 15–25% of all bookings with transparent monthly reporting. Watch your land generate consistent income while we handle all the work.",
-      details: ["Transparent revenue sharing", "Monthly automated payments", "Detailed performance reports"]
-    }
-  ];
-
-  return (
-    <section id="how-it-works" className="py-20 bg-background">
+  const steps = [{
+    icon: MapPin,
+    title: "Site Visit & Feasibility Check",
+    description: "Our team conducts a comprehensive assessment of your property to ensure it's perfect for eco-luxury glamping. We handle all site planning and zoning verification.",
+    details: ["Site visit and evaluation", "Permits and zoning research", "Simple land-use agreement"]
+  }, {
+    icon: Hammer,
+    title: "We Build the Dome (2–3 weeks)",
+    description: "We construct your eco-luxury dome with deck, bathroom, and furnishings. Off-grid or utility connections included based on your property setup.",
+    details: ["Dome construction and installation", "Photography and Airbnb listing", "Guest management setup"]
+  }, {
+    icon: DollarSign,
+    title: "You Start Earning Monthly Income",
+    description: "Earn 15–25% of all bookings with transparent monthly reporting. Watch your land generate consistent income while we handle all the work.",
+    details: ["Transparent revenue sharing", "Monthly automated payments", "Detailed performance reports"]
+  }];
+  return <section id="how-it-works" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <Badge variant="secondary" className="mb-4 text-sm font-medium">
             How It Works
           </Badge>
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Four Simple Steps to Passive Income
-          </h2>
+          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">Three Simple Steps to Passive Income</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We've streamlined the entire process to make it as easy as possible 
             for Canadian landowners to start earning from their property.
@@ -41,8 +32,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {steps.map((step, index) => (
-            <Card key={index} className="relative shadow-soft hover:shadow-luxury transition-shadow duration-300">
+          {steps.map((step, index) => <Card key={index} className="relative shadow-soft hover:shadow-luxury transition-shadow duration-300">
               <CardContent className="p-8 text-center">
                 {/* Step Number */}
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
@@ -66,16 +56,13 @@ const HowItWorks = () => {
 
                 {/* Details */}
                 <ul className="text-sm text-muted-foreground space-y-2">
-                  {step.details.map((detail, detailIndex) => (
-                    <li key={detailIndex} className="flex items-center justify-center">
+                  {step.details.map((detail, detailIndex) => <li key={detailIndex} className="flex items-center justify-center">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2 flex-shrink-0"></div>
                       {detail}
-                    </li>
-                  ))}
+                    </li>)}
                 </ul>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* Bottom CTA */}
@@ -93,8 +80,6 @@ const HowItWorks = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HowItWorks;

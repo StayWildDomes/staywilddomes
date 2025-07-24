@@ -2,10 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Calendar, Instagram } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <section id="contact" className="py-20 bg-gradient-hero">
+  return <section id="contact" className="py-20 bg-gradient-hero">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <Badge variant="secondary" className="mb-4 text-sm font-medium bg-accent">
@@ -38,10 +36,7 @@ const Contact = () => {
                 <p className="text-muted-foreground mb-4">
                   Calendly booking widget would be embedded here
                 </p>
-                <Button 
-                  className="bg-primary hover:bg-primary/90"
-                  onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}
-                >
+                <Button className="bg-primary hover:bg-primary/90" onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}>
                   Schedule Free Consultation
                 </Button>
               </div>
@@ -58,10 +53,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Email Us</h4>
-                    <a 
-                      href="mailto:info@staywilddomes.ca"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
+                    <a href="mailto:info@staywilddomes.ca" className="text-muted-foreground hover:text-primary transition-colors">
                       info@staywilddomes.ca
                     </a>
                   </div>
@@ -77,12 +69,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Follow Us</h4>
-                    <a 
-                      href="https://instagram.com/staywilddomes.ca"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
+                    <a href="https://instagram.com/staywilddomes.ca" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                       @staywilddomes.ca
                     </a>
                   </div>
@@ -91,7 +78,7 @@ const Contact = () => {
             </Card>
 
             <Card className="shadow-luxury bg-accent/10">
-              <CardContent className="p-6">
+              <CardContent className="p-6 bg-slate-50">
                 <h4 className="font-semibold text-foreground mb-3">
                   What Happens Next?
                 </h4>
@@ -123,17 +110,12 @@ const Contact = () => {
             <p className="text-primary-foreground/90 mb-6">
               Don't let your beautiful land sit idle. Start generating passive income today.
             </p>
-            <Button 
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4"
-            >
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4">
               Get Started Now
             </Button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
