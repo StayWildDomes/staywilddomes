@@ -15,8 +15,8 @@ const Contact = () => {
             Ready to Start Earning?
           </h2>
           <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto">
-            Schedule a free 15-minute consultation to learn how NorthDome can 
-            transform your land into a profitable eco-luxury destination.
+            Schedule a free 15-minute consultation to learn how StayWild Domes can 
+            transform your Canadian land into a profitable eco-luxury destination.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
                 </p>
                 <Button 
                   className="bg-primary hover:bg-primary/90"
-                  onClick={() => window.open('https://calendly.com/northdome', '_blank')}
+                  onClick={() => window.open('https://calendly.com/staywilddomes', '_blank')}
                 >
                   Schedule Free Consultation
                 </Button>
@@ -59,10 +59,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground">Email Us</h4>
                     <a 
-                      href="mailto:info@northdome.ca"
+                      href="mailto:info@staywilddomes.ca"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      info@northdome.ca
+                      info@staywilddomes.ca
                     </a>
                   </div>
                 </div>
@@ -78,12 +78,12 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground">Follow Us</h4>
                     <a 
-                      href="https://instagram.com/northdome.ca"
+                      href="https://instagram.com/staywilddomes.ca"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      @northdome.ca
+                      @staywilddomes.ca
                     </a>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                   </li>
                   <li className="flex items-start">
                     <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                    Custom partnership proposal within 48 hours
+                    Custom partnership proposal and contract options
                   </li>
                 </ul>
               </CardContent>

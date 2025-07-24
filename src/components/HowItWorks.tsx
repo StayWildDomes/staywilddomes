@@ -6,20 +6,20 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: MapPin,
-      title: "We Evaluate Your Land",
-      description: "Our team conducts a comprehensive assessment of your property to ensure it's perfect for eco-luxury glamping. We handle all site planning and feasibility studies.",
-      details: ["Site visit and evaluation", "Permits and zoning research", "Environmental impact assessment"]
+      title: "Site Visit & Feasibility Check",
+      description: "Our team conducts a comprehensive assessment of your property to ensure it's perfect for eco-luxury glamping. We handle all site planning and zoning verification.",
+      details: ["Site visit and evaluation", "Permits and zoning research", "Simple land-use agreement"]
     },
     {
       icon: Hammer,
-      title: "We Handle Everything",
-      description: "From construction to marketing, we manage every aspect of your dome operation. You don't lift a finger while we build your passive income stream.",
-      details: ["Dome construction and installation", "Marketing and booking management", "Guest services and maintenance"]
+      title: "We Build the Dome (2–3 weeks)",
+      description: "We construct your eco-luxury dome with deck, bathroom, and furnishings. Off-grid or utility connections included based on your property setup.",
+      details: ["Dome construction and installation", "Photography and Airbnb listing", "Guest management setup"]
     },
     {
       icon: DollarSign,
-      title: "You Receive Monthly Payouts",
-      description: "Earn 20% of all revenue with transparent monthly reporting. Watch your land generate consistent income while we handle all the work.",
+      title: "You Start Earning Monthly Income",
+      description: "Earn 15–25% of all bookings with transparent monthly reporting. Watch your land generate consistent income while we handle all the work.",
       details: ["Transparent revenue sharing", "Monthly automated payments", "Detailed performance reports"]
     }
   ];
@@ -32,11 +32,11 @@ const HowItWorks = () => {
             How It Works
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Three Simple Steps to Passive Income
+            Four Simple Steps to Passive Income
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We've streamlined the entire process to make it as easy as possible 
-            for landowners to start earning from their property.
+            for Canadian landowners to start earning from their property.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ const HowItWorks = () => {
               Ready to Turn Your Land into Income?
             </h3>
             <p className="text-primary-foreground/90 mb-6">
-              Join landowners already earning thousands monthly with NorthDome
+              Join Canadian landowners already earning thousands monthly with StayWild Domes
             </p>
             <button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-3 rounded-lg transition-colors">
               Start Your Partnership

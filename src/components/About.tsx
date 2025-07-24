@@ -8,15 +8,14 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <Badge variant="secondary" className="mb-4 text-sm font-medium">
-            About NorthDome
+            About StayWild Domes
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Helping Landowners Unlock Passive Income
+            Helping Canadian Landowners Unlock Passive Income
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Founded by a young entrepreneur passionate about sustainable tourism, 
-            NorthDome bridges the gap between underutilized rural land and the growing 
-            demand for unique eco-luxury experiences.
+            Founded by passionate entrepreneurs helping Canadian landowners unlock passive income 
+            through sustainable eco-luxury glamping experiences with geodesic domes.
           </p>
         </div>
 

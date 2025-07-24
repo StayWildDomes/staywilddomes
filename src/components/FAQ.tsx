@@ -37,8 +37,8 @@ const FAQ = () => {
       answer: "Yes! As the landowner, you have access to the dome during designated owner periods throughout the year. We'll coordinate with you to block out dates when you'd like to use the space for personal enjoyment or to host family and friends."
     },
     {
-      question: "What about utilities and infrastructure?",
-      answer: "We design each dome to be as self-sufficient as possible, often incorporating solar power, composting toilets, and rainwater collection. Basic access to electricity and water is helpful but not always required depending on the dome configuration and your property setup."
+      question: "What do you provide vs. what do I provide?",
+      answer: "We provide: Dome, deck, bathroom, furnishings, off-grid or utility connections, photography, Airbnb listing, guest management, insurance, cleaning, and full support. You provide: 0.5–2 acres of scenic land, short-term rental allowance, and permission to host and share revenue. Optional: utility access."
     }
   ];
 
@@ -53,7 +53,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Get answers to the most common questions about partnering with NorthDome
+            Get answers to the most common questions about partnering with StayWild Domes
           </p>
         </div>
 

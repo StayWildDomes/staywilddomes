@@ -8,16 +8,16 @@ const Testimonials = () => {
       name: "Sarah Mitchell",
       location: "Napa Valley, CA",
       property: "25-acre Vineyard",
-      quote: "NorthDome transformed our unused hillside into a $4,000/month income stream. The process was seamless, and our guests love the luxury dome experience among the vines.",
-      revenue: "$4,000/month",
+      quote: "StayWild Domes transformed our unused hillside into a $1,170/month income stream. The process was seamless, and our guests love the luxury dome experience among the vines.",
+      revenue: "$1,170/month",
       rating: 5
     },
     {
       name: "James Thompson", 
       location: "Blue Ridge Mountains, VA",
       property: "Historic Farm",
-      quote: "I was skeptical about passive income promises, but NorthDome delivered. Six months in and we're consistently booked. They truly handle everything while we collect our share.",
-      revenue: "$3,200/month",
+      quote: "I was skeptical about passive income promises, but StayWild Domes delivered. Six months in and we're consistently booked. They truly handle everything while we collect our share.",
+      revenue: "$980/month",
       rating: 5
     },
     {
@@ -25,7 +25,7 @@ const Testimonials = () => {
       location: "Sonoma County, CA", 
       property: "Organic Farm & Retreat",
       quote: "The dome perfectly complements our farm-to-table retreat. Guests rave about the eco-luxury experience, and it's added a whole new revenue stream to our agritourism business.",
-      revenue: "$5,500/month",
+      revenue: "$1,450/month",
       rating: 5
     }
   ];
@@ -41,7 +41,7 @@ const Testimonials = () => {
             What Our Partners Say
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real landowners sharing their experience with NorthDome partnerships
+            Real Canadian landowners sharing their experience with StayWild Domes partnerships
           </p>
         </div>
 

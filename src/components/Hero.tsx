@@ -14,23 +14,23 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-6 py-20 text-center lg:text-left">
         <div className="max-w-4xl">
           <h1 className="text-5xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Turn Your Land into Income with 
+            Turn Your Land Into Passive Income with 
             <span className="block text-accent-foreground bg-accent/90 px-4 py-2 rounded-lg mt-2 inline-block">
               Eco-Luxury Domes
             </span>
           </h1>
           
           <p className="text-xl lg:text-2xl text-primary-foreground/90 mb-8 max-w-2xl">
-            We handle the dome, bookings, guests, and maintenance — you earn 
+            We build, manage, and host glamping stays on your land — you earn 
             <span className="font-semibold text-accent-foreground bg-accent/90 px-2 py-1 rounded mx-1">
-              20% of all revenue
+              15–25% of all bookings
             </span>
-            risk-free.
+            with no effort or investment.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4 text-lg shadow-luxury">
-              Partner With Us
+              Book a Call
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             

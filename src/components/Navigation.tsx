@@ -18,7 +18,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold text-primary">
-            NorthDome
+            StayWild Domes
           </div>
 
           {/* Desktop Menu */}
@@ -33,7 +33,7 @@ const Navigation = () => {
               </a>
             ))}
             <Button className="bg-primary hover:bg-primary/90">
-              Partner With Us
+              Book a Call
             </Button>
           </div>
 
@@ -65,7 +65,7 @@ const Navigation = () => {
                 </a>
               ))}
               <Button className="bg-primary hover:bg-primary/90 w-full mt-4">
-                Partner With Us
+                Book a Call
               </Button>
             </div>
           </div>
