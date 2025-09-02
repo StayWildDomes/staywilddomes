@@ -90,7 +90,9 @@ const Earnings = () => {
                     </div>
                     
                     <div className="flex justify-between items-center py-4 bg-primary/10 rounded-lg px-4">
-                      <span className="font-semibold text-foreground">Your Cut ({yourCutPercentage}%):</span>
+                      <span className="font-semibold text-foreground">Your Annual Income:</span>
+
+                      {/* <span className="font-semibold text-foreground">Your Cut ({yourCutPercentage}%):</span> */}
                       <span className="text-2xl font-bold text-primary">${yourCut.toLocaleString()}/month</span>
                     </div>
                     
