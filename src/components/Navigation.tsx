@@ -20,7 +20,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold text-primary">Stay Wild Domes</div>
+          <div className="text-2xl font-bold text-primary">StayWild Domes</div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
