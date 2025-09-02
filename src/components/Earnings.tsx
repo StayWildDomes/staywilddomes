@@ -84,10 +84,10 @@ const Earnings = () => {
                       />
                     </div>
                     
-                    <div className="flex justify-between items-center py-3 border-b border-border">
+                    {/* <div className="flex justify-between items-center py-3 border-b border-border">
                       <span className="text-muted-foreground">Gross Revenue:</span>
                       <span className="font-semibold text-foreground">${grossRevenue.toLocaleString()}/month</span>
-                    </div>
+                    </div> */}
                     
                     <div className="flex justify-between items-center py-4 bg-primary/10 rounded-lg px-4">
                       <span className="font-semibold text-foreground">Your Annual Income:</span>
