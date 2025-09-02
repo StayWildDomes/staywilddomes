@@ -96,12 +96,12 @@ const Earnings = () => {
                       <span className="text-2xl font-bold text-primary">${yourCut.toLocaleString()}/month</span>
                     </div>
                     
-                    {/* <div className="text-center mt-4">
+                    <div className="text-center mt-4">
                       <div className="text-sm text-muted-foreground">Annual Income</div>
                       <div className="text-3xl font-bold text-primary">~${annualIncome.toLocaleString()}/year</div>
                       <div className="text-sm text-muted-foreground mt-1">No effort. No investment.</div>
-                    </div> */}
-                  </div>
+                    </div>
+                  </div> 
                 </div>
 
                 <div className="space-y-6">
