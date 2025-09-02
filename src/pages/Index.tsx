@@ -10,7 +10,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import PopupCTA from "@/components/PopupCTA";
 
-const Index = () => {
+const Index = () => { 
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -19,7 +19,7 @@ const Index = () => {
       <HowItWorks />
       <Earnings />
       <PartnershipModels />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FAQ />
       <Contact />
       <Footer />
